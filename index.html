@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New chat</title>
+    <link rel="icon" href="icons/chatgpt-icon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="output.css">
+</head>
+<!--mainbg is the main background color-->
+<body class="mainbg pb-48">
+    <div class=" flex font-sans ">
+        <!--SIDEBAR CSS-->
+     <div class=" invisible w-0 md:visible md:h-screen md:w-[250px] ">
+        <div class="p-2 fixed bg-zinc-900  h-full w-[250px] text-white">
+            <div class="p-1.5 mb-2 border border-gray-600 rounded-md flex gap-3 items-center">
+                <div class="text-2xl font-light mb-[5px] ml-2">
+                    +
+                </div>
+                <div class="text-sm">
+                    New Chat
+                </div>
+            </div> 
+            <div class="p-2 h-4/6 flex flex-col justify-between overflow-y-hidden">
+                <div class="p-2 flex rounded-md hover:bg-zinc-800 hover:cursor-pointer items-center gap-2">
+                    <div>
+                        <img class="h-6" src="icons/message.png" alt="msg">
+                    </div>
+                    <div class="pb-1">
+                        Add custom scrollbar.
+                    </div>
+                </div>
+                <div class="p-2 flex rounded-md hover:bg-zinc-800 hover:cursor-pointer items-center gap-2">
+                    <div>
+                        <img class="h-6" src="icons/message.png" alt="msg">
+                    </div>
+                    <div class="pb-1">
+                        Anime Suggestions.
+                    </div>
+                </div>
+                <div class="p-2 flex rounded-md hover:bg-zinc-800 hover:cursor-pointer items-center gap-2">
+                    <div>
+                        <img class="h-6" src="icons/message.png" alt="msg">
+                    </div>
+                    <div class="pb-1">
+                        Tailwind css
+                    </div>
+                </div>
+                <div class="p-2 flex rounded-md hover:bg-zinc-800 hover:cursor-pointer items-center gap-2">
+                    <div>
+                        <img class="h-6" src="icons/message.png" alt="msg">
+                    </div>
+                    <div class="pb-1">
+                        Button styling.
+                    </div>
+                </div>
+                <div class="p-2 flex rounded-md hover:bg-zinc-800 hover:cursor-pointer items-center gap-2">
+                    <div>
+                        <img class="h-6" src="icons/message.png" alt="msg">
+                    </div>
+                    <div class="pb-1">
+                        Vectors C++.
+                    </div>
+                </div>
+                <div class="p-2 flex rounded-md hover:bg-zinc-800 hover:cursor-pointer items-center gap-2">
+                    <div>
+                        <img class="h-6" src="icons/message.png" alt="msg">
+                    </div>
+                    <div class="pb-1">
+                        Web Development.
+                    </div>
+                </div>
+                <div class="p-2 flex rounded-md hover:bg-zinc-800 hover:cursor-pointer items-center gap-2">
+                    <div>
+                        <img class="h-6" src="icons/message.png" alt="msg">
+                    </div>
+                    <div class="pb-1">
+                        Quick Sort
+                    </div>
+                </div>
+                <div class="p-2 flex rounded-md hover:bg-zinc-800 hover:cursor-pointer items-center gap-2">
+                    <div>
+                        <img class="h-6" src="icons/message.png" alt="msg">
+                    </div>
+                    <div class="pb-1">
+                        AI ML DevOps.
+                    </div>
+                </div>
+            </div>
+            <div class="border-t-[1px] text-sm border-t-slate-600 p-2 h-40 flex flex-col justify-between">
+                <div class="p-2 flex rounded-md hover:bg-zinc-800 hover:cursor-pointer items-center gap-2">
+                    <div>
+                        <img class="h-4" src="icons/delete.png" alt="msg">
+                    </div>
+                    <div class="pt-0">
+                        Clear conversations.
+                    </div>
+                </div>
+                <div class="p-2 flex rounded-md hover:bg-zinc-800 hover:cursor-pointer items-center gap-2">
+                    <div>
+                        <img class="h-5" src="icons/sun.png" alt="msg">
+                    </div>
+                    <div class="pt-0">
+                        Light Mode.
+                    </div>
+                </div>
+                <div class="p-2 flex rounded-md hover:bg-zinc-800 hover:cursor-pointer items-center gap-2">
+                    <div>
+                        <img class="h-4" src="icons/updates.png" alt="msg">
+                    </div>
+                    <div class="pt-0">
+                        Updates & FAQ's
+                    </div>
+                </div>
+                <div class="p-2 flex rounded-md hover:bg-zinc-800 hover:cursor-pointer items-center gap-2">
+                    <div>
+                        <img class="h-4" src="icons/logout.png" alt="msg">
+                    </div>
+                    <div class="pt-0">
+                        Log Out.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="mainbg flex-1 h-screen">
+        <!--HEADER CSS-->
+        <div class=" mainbg h-10 sm:h-0 sm:hidden flex justify-between items-center p-[5px] border-b-[1px] border-b-slate-600 w-screen fixed">
+            <div class="p-1">
+                <img class="h-5" src="icons/hammenu.png" alt="hammenu">
+            </div>
+            <div class="text-white p-1 flex-1 ml-2 mr-2 text-center">
+                New chat
+            </div>
+            <div class=" text-white text-3xl align-text-top p-1 pb-2 font-light mr-[2px]">
+                +
+            </div>
+          </div>
+          <!--MAIN BODY CSS-->
+         <div class="mainbg h-screen mr-6 ml-6 pt-10">
+            <h1 class="text-center text-4xl mt-6 mb-10 text-white font-semibold sm:mt-[106px] sm:mb-[64px]">ChatGPT</h1>
+            <div class="md:flex md:gap-3.5 m-auto max-w-[720px]">
+            <div class=" flex flex-col gap-3.5 items-center mb-8 flex-1">
+                <div class=" text-lg flex md:flex-col items-center gap-2 text-white">
+                    <img class="h-6" src="icons/sun.png" alt="sun">
+                    Examples
+                </div>
+                <div class="w-full text-center text-sm p-3 divbg rounded-md text-white hover:bg-zinc-800 cursor-pointer">
+                    "Explain quantum computing in simple terms" -&gt;
+                </div>
+                <div class="w-full text-center text-sm p-3 divbg rounded-md text-white hover:bg-zinc-800 cursor-pointer">
+                    "Got any creative ideas for a 10 year old's birthday?" -&gt;
+                </div>
+                <div class="w-full text-center text-sm p-3 divbg rounded-md text-white hover:bg-zinc-800 cursor-pointer">
+                    "How do I make an HTTP request in Javascript?" -&gt;
+                </div>
+            </div>
+            <div class=" flex flex-col gap-3.5 items-center mb-8 flex-1">
+                <div class=" text-lg flex md:flex-col items-center gap-2 text-white ">
+                    <img class="h-6" src="icons/electricity.png" alt="sun">
+                    Capablities
+                </div>
+                <div class="w-full text-center text-sm p-3 divbg rounded-md text-white">
+                    Remembers what user said earlier in the conversation
+                </div>
+                <div class="w-full text-center text-sm p-3 divbg rounded-md text-white">
+                    Allows user to porvide follow-up corrections
+                </div>
+                <div class="w-full text-center text-sm p-3 divbg rounded-md text-white">
+                    Trained to decline inappropiate requests
+                </div>
+            </div>
+            <div class=" flex flex-col gap-3.5 items-center mb-8 flex-1">
+                <div class=" text-lg flex md:flex-col items-center gap-2 text-white ">
+                    <img class="h-6" src="icons/error.png" alt="sun">
+                    Limitations
+                </div>
+                <div class="w-full text-center text-sm p-3 divbg rounded-md text-white">
+                    May occasionally generate incorrect information
+                </div>
+                <div class="w-full text-center text-sm p-3 divbg rounded-md text-white">
+                    May occasionally produce harmful information or biased content
+                </div>
+                <div class="w-full text-center text-sm p-3 divbg rounded-md text-white">
+                    Limited knowledge of the world and events after 2021
+                </div>
+            </div>
+         </div>
+        </div>   
+        <!--FOOTER CSS-->
+         <div class=" mainbg border-t-[1px] md:border-none border-t-slate-600 text-center h-[96px] fixed left-0 right-0 bottom-0 md:left-[250px] ">
+            <!-- **************** DIVBG IS A BACKGROUND COLOR CLASS*************-->
+            <div class="xl:pr-44 xl:pl-44">
+            <div class="p-2 text-white divbg  pt-2 pb-2 mt-2 ml-2 mr-2 h-11 flex rounded-md">
+                <div class=" divbg flex-1 items-center">
+                    <input class=" divbg w-full pt-2" type="text">
+                </div>
+                <div class=" w-8 relative">
+                    <img class="h-5 absolute right-2 top-1.5" src="icons/send.png" alt="snd">
+                </div>
+                </div>
+            </div>
+            <div class=" pt-2 pb-2 pr-3 pl-3 h-10 text-center text-gray-400 text-xs">
+                <span class="underline">ChatGPT Feb 13 Version.</span>
+                Free Research Preview. Our goal is to make AI systems more natural and safe to interact with.
+                Your feedback will help us improve.
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
